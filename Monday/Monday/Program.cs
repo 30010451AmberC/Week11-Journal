@@ -55,7 +55,7 @@ namespace Monday
 
             //Task3:
             int[] newArray = new int[50];
-            Array.Copy(numbers, newArray, int[50]);
+            Array.Copy(numbers, newArray, 50);
 
             //Task4:
             Array.Reverse(numbers);
