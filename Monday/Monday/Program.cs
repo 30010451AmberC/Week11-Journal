@@ -49,7 +49,19 @@ namespace Monday
 
             }
             Array.Sort(numbers);
+
+            //Task2:
+            Array.IndexOf(numbers, 55);
+
+            //Task3:
+            int[] newArray = new int[50];
+            Array.Copy(numbers, newArray, int[50]);
+
+            //Task4:
+            Array.Reverse(numbers);
+            Console.WriteLine(numbers);
         }
+
     }
 }
 
